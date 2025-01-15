@@ -6,7 +6,7 @@ themeToggle.addEventListener('change', () => {
   if (themeToggle.checked) {
     // Apply dark theme
     document.body.style.backgroundColor = '#121212'; // Dark background
-    document.body.style.color = '#87ceeb'; // Light text
+    document.body.style.color = '#87ceeb'; // Light text 
 
     // Update the profile card styles
     const profileCard = document.querySelector('.profile-card');
